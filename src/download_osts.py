@@ -1,7 +1,7 @@
 import os
 import re
-import requests
 import urllib.parse as urlparse
+import requests
 from dotenv import load_dotenv
 from yt_dlp import YoutubeDL
 from googleapiclient.discovery import build
@@ -67,7 +67,7 @@ def remove_videos():
         file_path = os.path.join(DATA_DIR, f)
         if os.path.isfile(file_path) and f.endswith(".mp3"):
             os.remove(file_path)
-            print(f"Removed {len(song_files)} videos from the songlist!")
+    print(f"Removed {len(song_files)} videos from the songlist!")
 
 with YoutubeDL(ydl_opts) as ydl:
     print("Input 'quit' or 'exit' to stop program from running")

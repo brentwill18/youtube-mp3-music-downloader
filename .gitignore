@@ -1,3 +1,3 @@
 venv/
-data/music/*.mp3
+data/songs/*.mp3
 .env
