@@ -1,5 +1,4 @@
 <h2 align = "center">Youtube MP3 Music Downloader</h2>
----
 
 A Python-based tool that allows you to download **specifically** Youtube music videos and **converts** the file to a **mp3** file.
 
